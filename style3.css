@@ -1,0 +1,133 @@
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin:0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+    
+}
+
+#navigation-container{
+    margin:0;
+    Padding:0;
+    width:100vw;
+    height:5vw;
+    background-color:clear;
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+ul, li{
+    list-style:none;
+    display:flex;
+    padding:lem;
+    margin:0;
+    
+}
+h3{
+    padding:lem;
+    color:#f5f5f5;
+    letter-spacing:3px;
+    font-size:30px;
+    text-align:left;
+}
+li a {
+        color:white;
+        text-decoration:none;
+}
+li{
+    cursor:pointer;
+    transition:all .5s ease-in-out;
+    margin:0.5em;
+    padding: 10px 15px;
+    border-radius:20px;
+    font-size:20px;
+    color:#f5f5f5;
+    text-decoration:none;
+    
+}
+li:hover{
+    background-color:#017592;
+    box-shadow:3px 5px 5px;
+}
+
+
+.shape, .shape2, .shape3, .shape4{
+ margin-top: 300px;
+ 
+}
+
+.shape, .shape2, .shape3, .shape4{
+    background-color: #edf2f7
+}
+
+.shape2, .image6 img{
+    margin-left: 500px;
+}
+
+.shape3, .image7 img{
+    margin-left: 900px;
+}
+
+.shape4, .image8 img{
+    margin-left: 1300px;
+}
+
+.image5 img, .shape, .shape2, .image6 img, .shape3, .image7 img, .shape4, .image8 img{
+position: absolute;
+height: 210px;
+ width: 330px;
+  border:1px solid rgba(255, 255, 255, 0.2);
+    box-shadow:0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.image5 img, .shape{
+ margin-left: 100px;
+}
+
+.image5 img, .image6 img, .image7 img, .image8 img{
+    margin-top: 505px;
+}
+
+.image5 img, .image6 img, .image7 img, .image8 img, .image8 img{
+    transition: 1s;
+}
+
+.image5 img:hover{
+    filter:brightness(20%)
+}
+
+.image6 img:hover{
+    filter:brightness(20%);
+}
+
+.image7 img:hover{
+    filter:brightness(20%);
+}
+
+.image8 img:hover{
+    filter:brightness(20%);
+}
+
+.txt2, .txt5, .txt8, .txt11{
+    font-size:25px;
+    margin-left:80px;
+}
+.txt4, .txt7, .txt10, .txt13{
+    font-size:25px;
+}
+.txt3{
+    font-size:15px;
+}
+.txt6{
+    font-size:15px;
+}
+.txt9{
+    font-size:15px;
+}
+.txt12{
+    font-size:15px;
+}
